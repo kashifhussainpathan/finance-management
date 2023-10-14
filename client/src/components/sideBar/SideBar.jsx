@@ -23,7 +23,10 @@ export const SideBar = () => {
         </li>
 
         <li>
-          <a href="" target="_blank">
+          <a
+            href="https://github.com/kashifhussainpathan/finance-management/tree/main"
+            target="_blank"
+          >
             Github
           </a>
         </li>
