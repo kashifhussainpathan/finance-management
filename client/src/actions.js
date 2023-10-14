@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:4000";
+const apiUrl = "https://financemanagement.onrender.com";
 
 export const fetchIncome = () => async (dispatch) => {
   try {
