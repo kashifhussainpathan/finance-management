@@ -1,0 +1,20 @@
+.form {
+  text-align: center;
+  width: 300px;
+  margin-top: 1rem;
+}
+
+.form-inputs {
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: var(--box-shodow-color);
+}
+
+.form-inputs input,
+button,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  resize: none;
+}

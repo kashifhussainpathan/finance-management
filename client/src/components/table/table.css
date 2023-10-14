@@ -1,0 +1,40 @@
+.table {
+  text-align: left;
+  margin-top: 1em;
+  border-collapse: collapse;
+  border: 1px solid rgb(209, 206, 206);
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+  overflow-y: scroll;
+}
+.heading-row {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: 1px solid var(--background-color);
+}
+.heading-row th {
+  padding: 0.5em;
+}
+table td {
+  padding: 0.5em;
+  border-bottom: 1px solid rgb(209, 206, 206);
+}
+
+.total {
+  text-align: right;
+}
+
+table,
+td,
+th {
+  border: 1px solid var(--text-color);
+  text-align: center;
+}
+
+thead {
+  border: 1px solid var(--background-color);
+}
+
+table {
+  border-collapse: collapse;
+}

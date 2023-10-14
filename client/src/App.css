@@ -1,0 +1,15 @@
+.app {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.app-rightSide {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background-color: var(--box-shodow-color);
+  width: 100%;
+  height: 100vh;
+}
